@@ -1,6 +1,6 @@
 # 🔥 ESP32-S3 Gas Leak Detection System
 
-An *Gas leak detection system* built using an *ESP32-S3, **MQ-2 gas sensor, **LED indicators, and a **buzzer*.  
+An *Gas leak detection system* built using an *ESP32-S3*, *MQ-2 gas sensor*, *LED indicators*, and a *buzzer*.  
 This project monitors gas concentration levels and provides visual and audible alerts based on the gas intensity.
 
 ---
@@ -10,7 +10,7 @@ This project monitors gas concentration levels and provides visual and audible a
 - 🕐 *Automatic warm-up delay* for MQ-2 sensor (2 minutes)
 - 💡 *Three-stage LED indication*
   - 🟢 Green — Safe
-  - 🟡 Yellow — Warning + Buzzer
+  - 🟡 Yellow + Buzzer — Warning
   - 🔴 Red + Buzzer — Danger
 - 🔔 *Audible alerts* using buzzer tones
 - 📟 *Serial monitor feedback* for gas level status and sensor countdown
@@ -42,9 +42,6 @@ This project monitors gas concentration levels and provides visual and audible a
 | Green LED        | 1 | Safe status |
 | Yellow LED       | 1 | Warning status |
 | Red LED          | 1 | Alert status |
-| Resistors        | 3 | 220Ω each (for LEDs) |
-| Jumper Wires     | - | For connections |
-| Breadboard       | 1 | For prototyping |
 
 ---
 
